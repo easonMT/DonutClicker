@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: bisque;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button:disabled {
+    background-color: whitesmoke;
+    cursor: not-allowed;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px burlywood;
+}
+
+#clickButton:active{
+    background-color: black;
+    box-shadow: 0 5px burlywood;
+    transform: translateY(4px);
+}
+
+#autoClickerButton{
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 0 5px grey;
+}
+
+#autoClickerButton:active{
+    color: black;
+    background-color: whitesmoke;
+    transform: translateY(4px);
+}
+
+#resetButton{
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 0 5px grey;
+}
+
+#resetButton:active{
+    color: black;
+    background-color: whitesmoke;
+    transform: translateY(4px);
+}
